@@ -2,11 +2,11 @@
 - hosts: all
   become: yes
   tasks:
-   - name: install tree
-     apt:
-     name: tree
-     state: present
-   - name: install nginx
-     apt:
-     name: nginx
-     state: present
+      - name: install tree
+        apt:
+           name: tree
+           state: present
+      - name: install nginx
+        apt:
+           name: nginxg
+           state: present
