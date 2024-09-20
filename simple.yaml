@@ -12,3 +12,8 @@
         apt:
            name: nginx
            state: present
+           
+       - name: install apache2
+        apt:
+           name: apache2
+           state: present
