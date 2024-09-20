@@ -13,7 +13,7 @@
             state: present
 
         - name: start apache service
-         service:
+          service:
             name: apache2
             state: started
 
