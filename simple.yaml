@@ -12,9 +12,9 @@
             name: apache2
             state: present
 
-        - name: start apache service
+        
+       - name: start Apache service
          service:
             name: apache2
             state: started
-           
      
