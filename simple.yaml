@@ -16,11 +16,11 @@
          service:
             name: apache2
             state: started 
-
-       - name: install nginx
+          
+       - name: install nginx 
          apt:
             name: nginx
-            state: present
+            state: present 
 
 
 
