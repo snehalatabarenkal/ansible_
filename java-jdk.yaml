@@ -8,10 +8,10 @@
             state: present
         when: ansible_os_family == "Debian"
 
-        - name: i want to install open jdk 8 on Radhat server
-          yum:
+     - name: i want to install open jdk 8 on Radhat server
+       yum:
             name: java-1.8.0-openjdk
             state: present
-          when: ansible_os_family == "Redhat"
+      when: ansible_os_family == "Redhat"
  
       
