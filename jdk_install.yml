@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: javaserve
   vars:
     myubuntujavapackage: openjdk-8-jdk
     myredhatjavapacakge: java-1.8.0-openjdk-devel
