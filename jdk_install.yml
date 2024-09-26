@@ -4,6 +4,10 @@
     myubuntujavapackage: openjdk-8-jdk
     myredhatjavapacakge: java-1.8.0-openjdk-devel
   tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+        
     - name: i want to install open jdk 8 on ubuntu server
       apt:
         name: "{{ myubuntujavapackage }}"
