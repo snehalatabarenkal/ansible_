@@ -5,7 +5,7 @@
     - name : i want to run linux command
       command: hostname -f
       register: myresult
-s
+
     - name : i want to display linux command output value
       debug:
          msg: "{{myresult}}"

@@ -6,7 +6,7 @@
     myvar2 : tree
     myvar3 : apache2
   tasks:
-      - name: i want display variable variable
+      - name: i want display variable
         debug: 
           msg : "{{myvar3}}"
 
