@@ -8,7 +8,7 @@
       apt:
           name: apache2
           state: present
-          notify: restartedservice
+      notify: restartedservice
 
     - name : i want to replace apache vertex page
       template:
