@@ -8,3 +8,16 @@
       apt:
           name: apache2
           state: present
+          notify: restartedservice
+
+    - name : i want to replace apache vertex page
+      template:
+          src: newtemplatefile.j2
+          dest: /var/www/html/index.html
+      notify: restartedservice
+
+  handlers: 
+    - name: restartedservice
+      service: 
+        name: apache2
+        state: restarted
