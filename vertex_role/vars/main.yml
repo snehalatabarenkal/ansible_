@@ -1,5 +1,8 @@
 ---
 # vars file for vertex_role
 
-myubuntujavapackage : openjdk-8-jre
-myredhatjavapacakge : java-1.8.0-openjdk
+#myubuntujavapackage : openjdk-8-jre
+#myredhatjavapacakge : java-1.8.0-openjdk
+
+
+mysqlpasswd : sneha123
