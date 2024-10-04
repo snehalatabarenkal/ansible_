@@ -1,4 +1,4 @@
 ---
 # tasks file for vertex_role
 
-- include_tasks: jdk_install.yml
+#- include_tasks: jdk_install.yml
